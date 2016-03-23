@@ -1,0 +1,81 @@
+/* fontface */
+
+@font-face {
+    font-family: 'chalk_lineoutline';
+    src: url('../fonts/chalk_line_outline/chalk_line_outline-webfont.eot');
+    src: url('../fonts/chalk_line_outline/chalk_line_outline-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/chalk_line_outline/chalk_line_outline-webfont.woff2') format('woff2'),
+         url('../fonts/chalk_line_outline/chalk_line_outline-webfont.woff') format('woff'),
+         url('../fonts/chalk_line_outline/chalk_line_outline-webfont.ttf') format('truetype'),
+         url('../fonts/chalk_line_outline/chalk_line_outline-webfont.svg#chalk_lineoutline') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'chalk_lineoutline';
+    src: url('../fonts/chalk_line_outline/chalkline-outline-webfont.eot');
+    src: url('../fonts/chalk_line_outline/chalkline-outline-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/chalk_line_outline/chalkline-outline-webfont.woff2') format('woff2'),
+         url('../fonts/chalk_line_outline/chalkline-outline-webfont.woff') format('woff'),
+         url('../fonts/chalk_line_outline/chalkline-outline-webfont.ttf') format('truetype'),
+         url('../fonts/chalk_line_outline/chalkline-outline-webfont.svg#chalk_lineoutline') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+  background: #539d69;
+}
+
+.main {
+  width: 300px;
+  margin: 50% auto;
+}
+
+.title {
+  margin-left: 5px;
+}
+
+.title h1 {
+  text-align: center;
+  font-family: 'chalk_lineoutline';
+  color: #67f692;
+  margin: 20px 15px 0 0;
+  float: left;
+  display: inline-block;
+}
+
+.main img {
+}
+
+.btn {
+  width: 300px;
+  height: 30px;
+  border-radius: 10px;
+  background: #fff;
+  border: none;
+}
+
+.btn a {
+  text-decoration: none;
+  color: #000;
+}
+
+
+
+.btn a:visited {
+  color: #000;
+}
+
+.main ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  margin-top: 10px;
+}
