@@ -1,4 +1,6 @@
 /* fontface */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
 
 @font-face {
     font-family: 'chalk_lineoutline';
@@ -30,9 +32,17 @@ body {
   background: #539d69;
 }
 
+body p {
+  font-family: 'Open sans', sans-serif;
+}
+
 .main {
   width: 300px;
-  margin: 0 auto;
+  margin: 50% auto;
+}
+
+.title {
+  margin-left: 5px;
 }
 
 .title h1 {
@@ -74,4 +84,10 @@ body {
 
 ul li {
   margin-top: 10px;
+}
+
+/* result page */
+
+.result {
+  margin-left: 120px;
 }
